@@ -138,16 +138,3 @@ footer a i {
    
 }
 
-@media(max-width: 370px) {
-    html {
-        font-size: 70%;
-    }
-    
-}
-
-@media(max-width: 290px) {
-    html {
-        font-size: 60%;
-    }
-    
-}
