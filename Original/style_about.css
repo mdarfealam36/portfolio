@@ -112,7 +112,7 @@ footer a i {
 }
 
 /* ========================== BREAKPOINTS ========================== */
-@media(max-width: 402px) {
+@media(max-width: 370px) {
     html {
         font-size: 80%;
     }
