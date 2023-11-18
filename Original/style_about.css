@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
@@ -63,12 +64,24 @@ span {
 
 p {
     font-size: 1.1rem;
-    text-align: center;
+    text-align: justify;
     font-family: Poppins;
     color: var(--text-color);
     padding: 1rem 8rem 2rem 8rem;
-    /* top  left bottom right */
 }
+
+.skill-content{
+    max-width: 670px; /* Set a maximum width for better readability on larger screens */
+    margin: 20px auto; /* Center the content */
+  }
+  
+  .skill-content p {
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    padding: 0 8rem 1rem 8rem;
+  }
+
 
 /* ========================== Footer section ========================== */
 
@@ -99,20 +112,28 @@ footer a i {
 }
 
 /* ========================== BREAKPOINTS ========================== */
-@media(max-width: 425px) {
+@media(max-width: 402px) {
     html {
         font-size: 80%;
     }
 
     p {
+        text-align: justify;
         font-size: 1.1rem;
         font-family: Poppins;
         padding: 1rem 2rem 2rem 2rem;
     }
 
     footer p{
-        font-size: .85rem;
+        font-size: .8rem;
     }
+      
+    .skill-content p {
+        font-family: Poppins;
+        text-align: justify;
+        font-size: 1.1rem;
+        padding: 0 2rem 1rem 2rem;
+      }
    
 }
 
