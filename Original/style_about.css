@@ -112,6 +112,32 @@ footer a i {
 }
 
 /* ========================== BREAKPOINTS ========================== */
+
+@media(max-width: 596px) {
+    html {
+        font-size: 80%;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 1.1rem;
+        font-family: Poppins;
+        padding: 1rem 2rem 2rem 2rem;
+    }
+
+    footer p{
+        font-size: .65rem;
+    }
+      
+    .skill-content p {
+        font-family: Poppins;
+        text-align: justify;
+        font-size: 1.1rem;
+        padding: 0 30rem 1rem 2;
+      }
+   
+}
+
 @media(max-width: 370px) {
     html {
         font-size: 80%;
