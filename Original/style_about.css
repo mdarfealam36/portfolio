@@ -125,14 +125,14 @@ footer a i {
     }
 
     footer p{
-        font-size: .75rem;
+        font-size: .7rem;
     }
       
     .skill-content p {
         font-family: Poppins;
         text-align: justify;
         font-size: 1rem;
-        padding: 0 2rem 1rem 2rem;
+        padding: 0 1rem 1rem 2rem;
       }
    
 }
