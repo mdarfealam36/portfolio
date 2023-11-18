@@ -112,33 +112,6 @@ footer a i {
 }
 
 /* ========================== BREAKPOINTS ========================== */
-/* 
-@media(max-width: 400px) {
-    html {
-        font-size: 80%;
-    }
-
-    p {
-        text-align: justify;
-        font-size: 1.1rem;
-        font-family: Poppins;
-        padding: 1rem 2rem 2rem 2rem;
-    }
-
-    footer p{
-        font-size: .65rem;
-    }
-      
-    .skill-content p {
-        font-family: Poppins;
-        text-align: justify;
-        font-size: 1.1rem;
-        padding: 0 2rem 1rem 2rem;
-      }
-   
-}
-
- */
 
 
 @media(max-width: 364px) {
@@ -152,19 +125,21 @@ footer a i {
         font-family: Poppins;
         padding: 1rem 2rem 2rem 2rem;
     }
+    h2{
+        padding: 0 2rem 0 2rem;
+        
+    }
 
     footer p{
-        font-size: .65rem;
+        font-size: .7rem;
     }
       
     .skill-content p {
+        
         font-family: Poppins;
         text-align: justify;
         font-size: 1.1rem;
-        padding: 0 2rem 1rem 2rem;
+        padding: 0 2rem .5rem 2rem;
       }
    
 }
-
-
-
